@@ -10,13 +10,13 @@ public class Main {
     public static final int LEAVE_CODE_ERROR = 3;
 
     public static void main(String[] args) {
-	    if(args==null) {
+        if(args==null) {
             critical("Arguments were supplied as null, is your JRE fine?");
             System.exit(LEAVE_CODE_ERROR);
 	        return;
         }
 
-	    if(args.length<3) {
+        if(args.length<3) {
             info("Please supply all necessary arguments before starting.");
             printSyntax();
             System.exit(LEAVE_CODE_ARGS_MISSING);
