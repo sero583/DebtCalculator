@@ -1,3 +1,6 @@
+# ARCHIVED
+This repository moved <a href="https://github.com/sero583/JAVA-OOP1-Course/tree/master/DebtCalculator">here</a>.
+
 #  DebtCalculator
 
 This is a very basic and small console-application. This was created for my computer science class Java OOP1.
